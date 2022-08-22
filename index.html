@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html style="background:black;">
+<link rel="stylesheet" href="stylesheet.css" />
+
+<div class="GoogleFit" style="background:white; margin-left:7px">
+
+    <div class="header">
+        <img src="https://www.gstatic.com/images/branding/product/1x/gfit_512dp.png" alt="google fit logo" />
+        <h1>Google Fit</h1>
+    </div>
+
+    <h2>
+        android + wearables | front end
+    </h2>
+
+    <p>
+        The first team I was placed upon was Google Fit on Android. <br>
+        I initially worked on fixing Accessibility Bugs, for instance, talkback bugs. <br>
+        Next, I worked on adding a Landscape Mode for Google Fit's Activity Tracking.
+    </p>
+    <img src="https://i.imgur.com/gal6gjR.png"
+         alt="active tracking landscape mode"
+         style="width:60%; max-width:700px; left: 110px; position: relative;"/>
+    <p>
+        For this feature, I interacted with UI and QA in order to get my layout approved.<br>
+        I then moved onto Google Fit On Wear, the WearOS Google Fit App. <br>
+    </p>
+    <img src="https://www.wareable.com/media/imager/202106/35526-original.jpg"
+         alt="watch and phones showing google fit"
+         style="width:60%; max-width:700px; left: 110px; position: relative;"/>
+    <p>
+        For this application, a user facing bug was sent to me.<br>
+        <i> The daily goals were not being reset at midnight, like how users expect. </i> <br> <br>
+
+        First of all, I <strong>manually tested</strong> the bug, by staying up to midnight and watching it not reset. <br>
+        Then I wrote up a method for resetting the goals, which sets our local goal data store to zero progress. <br> <br>
+
+        I then worked on the <strong>unit test</strong>
+        Finally I implemented this method to be called when the day changes. <br>
+        This allows the goals to reset regardless of stuff like timezone changes. <br>
+    </p>
+
+    <br><br><br>
+
+</div>
+
+<div class="AHP">
+
+    <h1>Android Health Connect</h1>
+    <img src="https://developer.android.com/static/guide/health-and-fitness/health-connect/images/health_connect_logo_192pxnew.png
+" alt="google fit logo" />
+
+
+</div>
+
+<div class="AHPBody">
+    <p>
+        I started on working on support for localdate times, for deleting and reading.<br>
+        This allowed me to learn SQL, specifically for connecting the application to the SQLite database. <br>
+    </p>
+
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioB9TK2fLuYAv8nIzhQMGsmSQJFhcWTsEl4ZUkR1XXbEkmR4JR3ZBP2N3YLYU143Lo02Qsx3iXE2VBobBBDJ0fr9V_2_epxOtnDLRA9S2XpkUdAWO-OyBejhkrf53wv4sIqnaqmjRB8iu8XzeFhCgM00gxgln1M-ipVeww9WG5bduNTBcpxRpASMha/s1600/231491533__37260715__148018.png"
+         alt="android health connect"
+    />
+
+    <p>
+        Next I worked on <strong>optimizing</strong> the sql queries we make. <br> <br>
+        For example, instead of reading all the data and then deleting them all individually, <br>
+        I simply delete as I find the UUIDs to delete. <br> <br>
+        This allows us to do less reads on the database which speeds up execution time. <br>
+    </p>
+
+</div>
+
+
+
+
+
+
+
+
+</html>

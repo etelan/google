@@ -1,0 +1,81 @@
+/* CSS styles */
+
+html, body {
+    max-width: 100%;
+    min-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Fit Part */
+.header img {
+  display:inline-block;
+  vertical-align: -25px;
+  width: 100px;
+  height: 100px;
+}
+
+.header h1 {
+  display:inline-block;
+  text-align:left;
+  font-size: 60px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.GoogleFit p {
+    width:60%;
+    position: relative;
+    left: 110px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color:555f;
+}
+
+/* AHP PART */
+.AHP {
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.AHP img {
+  margin-right:1%;
+  width: 100px;
+  height: 100px;
+}
+
+.AHP h1 {
+  color:white;
+  font-size: 60px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.AHPBody {
+    width:90%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.AHPBody p {
+    width:80%;
+    text-align:right;
+    left: 110px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+
+.AHPBody img {
+  width:60%;
+  max-width:700px;
+  min-width:400px;
+}
+
+h2 {
+  position: relative;
+  left: 110px;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  color:555f;
+}
